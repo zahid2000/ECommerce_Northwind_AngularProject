@@ -24,6 +24,7 @@ getCategories(){
 setCurrentCategory(category:Category){
 this.currentCategory=category;
 }
+
 setCurrentCategoryNull(){
  
 }
@@ -40,5 +41,6 @@ getAllCategoryClass(){
   }else{
     return "list-group-item";
   }
+  
 }
 }
